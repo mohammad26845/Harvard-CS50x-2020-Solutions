@@ -8,7 +8,7 @@ A TO-DO application designed by the FLASK framework, enables people to save thei
 
 ### Key features:
 
-- Users can add, delete and see their todos.
+- Users can add, delete and see their TO-DOs.
 - Ability to register new users.
 - Protection of users’ information and privacy.
 - All the TO-DOs are private. Users cannot see other users’ TO-DOs.
