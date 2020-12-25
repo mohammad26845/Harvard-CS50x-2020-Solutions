@@ -19,7 +19,7 @@ A TO-DO application designed by the FLASK framework, enables people to save thei
 <br>
 
 #### Basic creation of TO-DO:
-Users can easily and as fast as possible register their TO-DOs, which merely include title and content.
+Users can easily and as fast as possible create their TO-DOs, which merely include title and content.
 
 
 #### Advanced creation of TO-DO:
@@ -50,6 +50,7 @@ JSON (JavaScript Object Notation) is a light-weight data-interchange format. It 
 - A collection of name/value pairs; In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.
 - An ordered list of values; In most languages, this is realized as an array, vector, list, or sequence.
 
+<br>
 ### Why using JSON?
 Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
 - - - -
