@@ -1,3 +1,4 @@
+# CS50x(iran) 2020
 ## CS50 Introduction To Computer Science
 You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) and [**(CS50 Sandbox)**](https://sandbox.cs50.io/) environments.
 
@@ -54,6 +55,14 @@ You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) 
   * [Home page](/week_8/web/home_page)
   * [Finance](/week_8/web/finance)
     
+### Notes:
+- All codes in this repository have passed the check50 with a 100% so you don't have to worry about the code being inaccurate.
+- You can still check the total score using " check50 " for code accuracy and " style50 " for code styling.
 
 ### DISCLAIMER:
 Please don't just copy the code mindlessly without trying to solve the problems yourself, it's totally pointless if you actually wanna learn how to write software and a blatant violation of the [**Academic Honesty**](https://docs.cs50.net/2016/fall/syllabus/cs50.html#academic-honesty) policy of the course.
+
+
+### References:
+
+[CS50 - Harvard University](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/)
