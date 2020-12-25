@@ -1,0 +1,37 @@
+
+.prgbar{
+    display: inline-block;
+}
+
+#btn_fpwd{
+        margin-top: 16px;
+}
+
+#amount{
+    min-width: 200px;
+}
+
+#sell_form{
+    margin-top: 50px;
+}
+
+#sell_form .form-group{
+    margin: 5px 2px;
+}
+
+
+#myTable tbody{
+    cursor:pointer;
+}
+
+main table
+{
+    /* left-align contents */
+    text-align: left;
+}
+
+main tfoot
+{
+    /* boldface tables' footers */
+    font-weight: bold;
+}

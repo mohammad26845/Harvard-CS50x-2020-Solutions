@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <form action="/quote" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Symbol" type="text" required>
+        </div>
+
+        <button id="submit" class="btn btn-primary" type="submit">Quote</button>
+    </form><br><br>
+
+    {% if stock %}
+
+    <table class="table text-center col-sm-6 mx-auto">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Symbol</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>{{ stock['name'] }}</td>
+                <td>{{ stock['symbol'] }}</td>
+                <td>{{ stock['price'] }}$</td>
+            </tr>
+        </tbody>
+    </table>
+    {% endif %}
+
+{% endblock %}

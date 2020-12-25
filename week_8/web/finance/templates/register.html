@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+<form action="/register" method="post">
+    <div class="form-group">
+        <input value="{{ username }}" autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
+    </div>
+
+    <div class="form-group">
+        <input id="pwd" class="form-control" name="password" placeholder="Password" type="password">
+    </div>
+
+
+    <div class="form-group prgbar col-xl-3 col-lg-3 col-md-4 col-sm-6 col-9">
+        <div class="progress">
+            <div id="pb_pwd" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="7" aria-valuenow="1" style="width: 1%"></div>
+        </div>
+        <small>Password difficulty</small>
+    </div>
+
+
+    <div class="form-group">
+        <input id="cpwd" class="form-control" name="cpassword" placeholder="Confirm Password" type="password">
+    </div>
+    <button id="sub" class="btn btn-primary" type="submit" disabled="disabled">Register</button>
+</form>
+{% endblock %}
+
+
+{% block script %}script.js{% endblock %}

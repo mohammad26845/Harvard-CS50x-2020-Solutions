@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+
+    <table class="table table-striped">
+
+      <thead>
+          <tr>
+              <th>Symbol</th>
+              <th>Shares</th>
+              <th>Price</th>
+              <th>Transacted</th>
+              <th>Action</th>
+          </tr>
+      </thead>
+
+      <tbody>
+        {% for data in history_data %}
+        <tr>
+            <td>{{ data["symbol"] }}</td>
+            <td>{{ data["amount"] }}</td>
+            <td>{{ data["price"] }}</td>
+            <td>{{ data["time"] }}</td>
+            {% if data["action"] == "SELL" %}
+                <td style="color: red; font-weight: 500;">{{ data["action"] }}</td>
+            {% else %}
+                <td style="color: green; font-weight: 500;">{{ data["action"] }}</td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+
+{% endblock %}

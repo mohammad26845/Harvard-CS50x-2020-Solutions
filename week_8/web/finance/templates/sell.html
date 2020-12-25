@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+
+
+
+
+
+
+
+
+{% block main %}
+
+
+    {% if rows %}
+        <small>Click on the stock you want to sell</small>
+
+        <table id="myTable" class="table text-center col-sm-6 mx-auto table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Symbol</th>
+                    <th scope="col">Share</th>
+                    <th scope="col">Purchase Price</th>
+                    <th scope="col">Instant Price</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                {%for row in rows%}
+                <tr class="table-row">
+                    <td class="sy">{{row['symbol']}}</td>
+                    <td class="am">{{row['amount']}}</td>
+                    <td class="pr">{{row['price']}}</td>
+                    <td class="pr">{{row['n_price']}}</td>
+                </tr>
+                {%endfor%}
+
+            </tbody>
+        </table>
+
+        <small>Click on the stock you want to sell</small>
+
+
+
+
+
+
+        <form action="/sell" method="post" id = "sell_form" class = "mx-auto">
+
+            <div class="row justify-content-center">
+                <div class="form-group">
+                    <label for="symbol_sell">Symbol</label>
+                    <input id="symbol_sell" name="symbol" readonly type="text" class="form-control sell-form" value="">
+                </div>
+
+                <div class="form-group">
+                    <label for="assets_sell">Current Shares</label>
+                    <input id="assets_sell" type="text" readonly  class="form-control sell-form" value="">
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+                <input id="amount" name="amount" min="1" max="1" autocomplete="off" autofocus class="form-control sell-form" placeholder="Shares" type="number" disabled="disabled">
+            </div>
+
+
+            <button id="sell_btn" type="submit" class="btn btn-danger mb-2" disabled="disabled" >SELL</button>
+
+
+    {% else %}
+        <h1>Sorry :(</h1>
+        <br>
+        <h2>You have no stocks to sell</h2>
+        <h3>Buy a stock first</h3>
+    {% endif %}
+
+{% endblock %}
+
+
+
+{% block script %}script.js{% endblock %}

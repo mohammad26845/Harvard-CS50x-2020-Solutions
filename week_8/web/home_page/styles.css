@@ -1,0 +1,43 @@
+.emoji{
+    font-size: 20px;
+}
+#header{
+    margin-top: 35px;
+}
+.card-title{
+    text-align: center !important;
+}
+.show-btn{
+    text-align: center;
+}
+.img-thumbnail{
+    width: 100% !important;
+}
+.header_album {
+    padding: 40px;
+}
+.gs{
+    filter: grayscale(100%);
+}
+
+.loading{
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: #a51c30;
+}
+
+.loading .cont{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 40vh ;
+}
