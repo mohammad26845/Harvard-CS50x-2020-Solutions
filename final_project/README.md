@@ -1,28 +1,29 @@
-## Designing a TO-DO-list application using the FLASK framework
+## The TO-DO-list application using the FLASK framework
 
 ### Explanations:
 
-A TO-DO application designed by the FLASK framework enables people to save their schedules and tasks and view them in future. It, also, reminds people of the tasks ahead.
+A TO-DO application designed by the FLASK framework, enables people to save their schedules and tasks and view them in future. It, also, reminds people of the tasks ahead.
 
 - - - -
 
 ### Key features:
 
-
-- Ability to register new users
-- Protection of users’ information and privacy
-- All the TO-DOs are private. Users cannot see other users’ TO-DOs
-- Ability to make TO-DOs in both basic and advanced modes
-- Using the application as a web application and REST API
-- Ability to employ other platforms due to having the capability of JSON output
-
-#### Basic registration of TO-DO:
-Users can easily and as fast as possible register their TO-DOs, which merely include title and content.
+- Users can add, delete and see their todos.
+- Ability to register new users.
+- Protection of users’ information and privacy.
+- All the TO-DOs are private. Users cannot see other users’ TO-DOs.
+- Using the application as a web application and REST API.
+- Ability to employ other platforms due to having the capability of JSON output.
+- Ability to create TO-DOs in both **basic** and **advanced** modes :
 
 <br>
 
-#### Advanced registration of TO-DO:
-Users can also register their TO-DOs in the more detailed and advanced mode.
+#### Basic creation of TO-DO:
+Users can easily and as fast as possible register their TO-DOs, which merely include title and content.
+
+
+#### Advanced creation of TO-DO:
+Users can also create their TO-DOs in the more detailed and advanced mode.
 
 1. Record date and time of registration
 
@@ -58,7 +59,7 @@ Enjoying REST capability, this program allows users to easily extend and connect
 ### About UI:
 The user interface of this program/application is fully responsive using the bootstrap framework. In some parts, it has become simpler and more attractive using the Jquery library.
 - - - -
-### Prerequisites:
+### Requirements:
 + Python 3
 + Sqlite 3
 + Flask
