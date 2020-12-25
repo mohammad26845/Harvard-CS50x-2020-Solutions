@@ -1,5 +1,6 @@
 # CS50x(iran) 2020
-<br>
+The best way to learn programming languages is to practice a lot. It is suggested that, for better learning, you should first do the exercises by yourself and then compare them with the answers of this repository.
+- - -
 
 ## CS50 Introduction To Computer Science
 You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) and [**(CS50 Sandbox)**](https://sandbox.cs50.io/) environments.
