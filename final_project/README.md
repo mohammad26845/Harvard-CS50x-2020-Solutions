@@ -51,6 +51,7 @@ JSON (JavaScript Object Notation) is a light-weight data-interchange format. It 
 - An ordered list of values; In most languages, this is realized as an array, vector, list, or sequence.
 
 <br>
+
 ### Why using JSON?
 Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
 - - - -
