@@ -6,9 +6,9 @@ You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) 
 
 ## Table Of Contents
 
-- [Problem Set 0](/week_0)
+- [Problem Set 0 (Scratch 😺)](/week_0)
 
-- [Problem Set 1](/week_1)
+- [Problem Set 1 (C)](/week_1)
   * [Hello](/week_1/hello)
   * [Mario](/week_1/mario)
     + [Less](/week_1/mario/less)
@@ -16,27 +16,27 @@ You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) 
   * [Cash](/week_1/cash)
   * [Credit](/week_1/credit)
   
-- [Problem Set 2](/week_2)
+- [Problem Set 2 (Arrays)](/week_2)
   * [Caesar](/week_2/caesar)
   * [Substitution](/week_2/substitution)
   * [Readability](/week_2/readability)
   
-- [Problem Set3](/week_3) 
+- [Problem Set3 (Algorithms)](/week_3) 
   * [Plurality](/week_3/plurality)
   * [Runoff](/week_3/runoff)
   * [Tideman](/week_3/tideman)
   
-- [Problem Set 4](/week_4) 
+- [Problem Set 4 (Memory)](/week_4) 
   * [Filter](/week_4/filter)
     + [Less](/week_4/filter/less)
     + [More](/week_4/filter/more)
   * [Recover](/week_4/recover)
   
-- [Problem Set 5](/week_5)
+- [Problem Set 5 (Data Structures)](/week_5)
   * [Speller (Simple)](/week_5/speller%20(Simple%20hashT))
   * [Speller (Optimal)](/week_5/speller%20(Optimal%20hash%20table))
   
-- [Problem Set 6](/week_6)
+- [Problem Set 6 (Python 🐍)](/week_6)
   * [Hello](/week_6/hello)
   * [Lario](/week_6/mario)
     + [Less](/week_6/mario/less)
@@ -46,11 +46,11 @@ You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) 
   * [Readability](/week_6/readability)
   * [DNA](/week_6/dna)
   
-- [Problem Set 7](/week_7)
+- [Problem Set 7 (SQL)](/week_7)
   * [Movies](/week_7/movies)
   * [Houses](/week_7/houses)
   
-- [Problem Set 8](/week_8)
+- [Problem Set 8 (Information)](/week_8)
   * [Home page](/week_8/web/home_page)
   * [Finance](/week_8/web/finance)
     
