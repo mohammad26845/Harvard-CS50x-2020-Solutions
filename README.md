@@ -1,9 +1,22 @@
 # CS50x(iran) 2020
+
+![cs50x](https://img.shields.io/badge/CS50x-IRAN-red)
+![pyversion](https://img.shields.io/badge/Python-3-blue)
+![Flask](https://img.shields.io/badge/Flask-1.1.2-blue)
+![c++](https://img.shields.io/badge/C%2B%2B----blue)
+![HTML](https://img.shields.io/badge/HTML-5-blue)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JS](https://img.shields.io/badge/JavaScripts----blue)
+![BS](https://img.shields.io/badge/Bootstrap-3-blue)
+![BS](https://img.shields.io/badge/SQLite-3-blue)
+![last-commit](https://img.shields.io/github/last-commit/mohammad26845/Harvard-CS50x-2020-Solutions)
+
+
+
 The best way to learn programming languages is to practice a lot. It is suggested that, for better learning, you should first do the exercises by yourself and then compare them with the answers of this repository.
-<br>
+
 
 - - -
-<br>
 
 ## CS50 Introduction To Computer Science
 You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) and [**(CS50 Sandbox)**](https://sandbox.cs50.io/) environments.
