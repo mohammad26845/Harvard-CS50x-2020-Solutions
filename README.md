@@ -73,6 +73,9 @@ You can run and test these codes in both [**(CS50 IDE)**](https://ide.cs50.io/) 
 - [Problem Set 8 (Information)](/week_8) :: <a href='https://cs50.harvard.edu/x/2020/weeks/8/'>Assignments Link</a>
   * [Home page](/week_8/web/home_page)
   * [Finance](/week_8/web/finance)
+  
+- [Final Project](/final_project) :: <a href='https://cs50.harvard.edu/x/2020/project/'>Description</a>
+  * [Readme file](/final_project/README.md)
     
 ### Notes:
 - All codes in this repository have passed the check50 with a 100% so you don't have to worry about the code being inaccurate.
