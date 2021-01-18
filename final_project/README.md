@@ -18,16 +18,16 @@ A TO-DO application designed by the FLASK framework, enables people to save thei
 
 <br>
 
-#### Basic creation of TO-DO:
+#### The basic mode of TO-DO:
 Users can easily and as fast as possible create their TO-DOs, which merely include title and content.
 
 
-#### Advanced creation of TO-DO:
+#### The advanced mode of TO-DO:
 Users can also create their TO-DOs in the more detailed and advanced mode.
 
 1. Record date and time of registration
 
-2. Determine the color of TO-DOs based on their taste
+2. Determine the color of TO-DOs
 
 3. Set a reminder time
 
@@ -59,7 +59,7 @@ Since the JSON format is text only, it can easily be sent to and from a server, 
 Enjoying REST capability, this program allows users to easily extend and connect it to other platforms. For instance, they can design an application on Android and IOS platforms that send and receive the required information in JSON format through connecting to a web server.
 - - - -
 ### About UI:
-The user interface of this program/application is fully responsive using the bootstrap framework. In some parts, it has become simpler and more attractive using the Jquery library.
+The user interface of this application is fully responsive using the bootstrap framework. In some parts, it has become simpler and more attractive using the Jquery library.
 - - - -
 ### Requirements:
 + Python 3
